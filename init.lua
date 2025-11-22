@@ -949,7 +949,20 @@ require('lazy').setup({
   },
 }) -- end lazyvim setup
 
-vim.lsp.enable { 'lua_ls', 'nixd', 'nil', 'basedpyright', 'eslint', 'tailwindcss', 'svelte', 'ts_ls', 'tinymist', 'emmet_language_server' }
+vim.lsp.enable {
+  'lua_ls',
+  'nixd',
+  'nil',
+  'basedpyright',
+  'eslint',
+  'tailwindcss',
+  'svelte',
+  'ts_ls',
+  'tinymist',
+  'emmet_language_server',
+  'jsonls',
+  'markdown_oxide',
+}
 
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
