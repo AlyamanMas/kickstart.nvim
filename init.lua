@@ -888,6 +888,8 @@ require('lazy').setup({
         --  If you are experiencing weird indenting issues, add the language to
         --  the list of additional_vim_regex_highlighting and disabled languages for indent.
         additional_vim_regex_highlighting = { 'ruby', 'nix' },
+        -- vim's csv highlighting has different colors for different columns so use that instead of TS
+        disable = { 'csv' },
       },
       indent = { enable = true, disable = { 'ruby', 'nix' } },
     },
