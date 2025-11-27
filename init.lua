@@ -968,6 +968,7 @@ vim.lsp.enable {
   'emmet_language_server',
   'jsonls',
   'markdown_oxide',
+  'bashls',
 }
 
 -- The line beneath this is called `modeline`. See `:help modeline`
