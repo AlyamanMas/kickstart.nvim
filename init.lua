@@ -969,6 +969,7 @@ vim.lsp.enable {
   'jsonls',
   'markdown_oxide',
   'bashls',
+  'ruff',
 }
 
 -- The line beneath this is called `modeline`. See `:help modeline`
